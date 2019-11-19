@@ -7,7 +7,10 @@ import {HttpService} from './http.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'public';
 
   public constructor (private _httpService: HttpService){}
+  ngOnInit(){
+  }
 }

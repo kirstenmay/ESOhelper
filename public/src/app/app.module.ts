@@ -7,12 +7,22 @@ import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { IncidentComponent } from './incident/incident.component';
 import { PatientComponent } from './patient/patient.component';
+import { VitalsComponent } from './vitals/vitals.component';
+import { FlowchartComponent } from './flowchart/flowchart.component';
+import { AssessmentComponent } from './assessment/assessment.component';
+import { NarrativeComponent } from './narrative/narrative.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IncidentComponent,
-    PatientComponent
+    PatientComponent,
+    VitalsComponent,
+    FlowchartComponent,
+    AssessmentComponent,
+    NarrativeComponent,
+    HomeComponent
   ],
   imports: [
     FormsModule,
