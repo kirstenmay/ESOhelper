@@ -11,6 +11,7 @@ import { VitalsComponent } from './vitals/vitals.component';
 import { FlowchartComponent } from './flowchart/flowchart.component';
 import { AssessmentComponent } from './assessment/assessment.component';
 import { NarrativeComponent } from './narrative/narrative.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NarrativeComponent } from './narrative/narrative.component';
     VitalsComponent,
     FlowchartComponent,
     AssessmentComponent,
-    NarrativeComponent
+    NarrativeComponent,
+    HomeComponent
   ],
   imports: [
     FormsModule,
