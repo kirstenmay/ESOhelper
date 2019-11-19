@@ -1,26 +1,27 @@
 <nav class="navbar navbar-expand-lg">
-  <ul class="navbar-nav nav-fill w-100">
-    <li class="nav-item">
-      <label>INCIDENT</label>
-    </li>
-    <li class="nav-item">
-      <label>PATIENT</label>
-    </li>
-    <li class="nav-item">
-      <label>VITALS</label>
-    </li>
-    <li class="nav-item">
-      <label>FLOWCHART</label>
-    </li>
-    <li class="nav-item">
-      <label>ASSESSMENT</label>
-    </li>
-    <li class="nav-item">
-      <label>NARRATIVE</label>
-    </li>
-  </ul>
+    <ul class="navbar-nav nav-fill w-100">
+        <!-- THE 1 IN ALL ROUTER LINKS IS A PLACEHOLDER FOR PATIENT ID THAT WILL BE PASSED THROUGH -->
+        <li class="nav-item">
+            <label [routerLink]="['incident/1']">INCIDENT</label>
+        </li>
+        <li class="nav-item">
+            <label [routerLink]="['patient/1']">PATIENT</label>
+        </li>
+        <li class="nav-item">
+            <label [routerLink]="['vitals/1']">VITALS</label>
+        </li>
+        <li class="nav-item">
+            <label [routerLink]="['flowchart/1']">FLOWCHART</label>
+        </li>
+        <li class="nav-item">
+            <label [routerLink]="['assessment/1']">ASSESSMENT</label>
+        </li>
+        <li class="nav-item">
+            <label [routerLink]="['narrative/1']">NARRATIVE</label>
+        </li>
+    </ul>
 </nav>
 
 
 
-<router-outlet></router-outlet> 
+<router-outlet></router-outlet>
